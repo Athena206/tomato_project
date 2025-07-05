@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(120deg, #f8fafc 0%, #ffe5ec 100%);
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+}
+
+h1 {
+  text-align: center;
+  color: #e63946;
+  font-size: 2.8rem;
+  margin-bottom: 32px;
+  letter-spacing: 2px;
+}
+
+.menu-title, .cart-title {
+  color: #22223b;
+  font-size: 1.6rem;
+  margin-bottom: 18px;
+}
+
+.food-list {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.food-card {
+  background: #fff0f3;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(230,57,70,0.08);
+  padding: 20px 18px;
+  min-width: 180px;
+  max-width: 220px;
+  text-align: center;
+  transition: transform 0.15s;
+}
+.food-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(230,57,70,0.13);
+}
+.food-card h3 {
+  margin: 0 0 8px 0;
+  color: #22223b;
+}
+.food-card p {
+  margin: 0 0 12px 0;
+  color: #e63946;
+  font-weight: bold;
+}
+.food-card button {
+  background: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.food-card button:hover {
+  background: #b51729;
+}
+
+.cart {
+  margin-top: 36px;
+  background: #f1faee;
+  border-radius: 12px;
+  padding: 18px 20px;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.06);
+}
+.cart-title {
+  margin-top: 0;
+}
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px 0;
+}
+.cart-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid #ffe5ec;
+  color: #22223b;
+}
+.place-order-btn {
+  background: #22223b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.place-order-btn:hover {
+  background: #e63946;
+}
