@@ -9,7 +9,11 @@
 - **Start Command:** `npm start`
 
 ## 3. Environment Variables
-- Set `MONGODB_URI` in Railway's environment variables panel.
+- Set `MONGODB_URI` in Railway's environment variables panel. Example:
+
+  ```
+  MONGODB_URI=mongodb+srv://sinhasangita2006:sayan@2006@tomato.sz2ajsx.mongodb.net/?retryWrites=true&w=majority&appName=tomato
+  ```
 
 ## 4. How it Works
 - The backend will serve the frontend build after the build step.
